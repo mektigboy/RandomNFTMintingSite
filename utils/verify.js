@@ -1,13 +1,11 @@
-const { network, run } = require("hardhat");
-const { networkConfig } = require("../helper-hardhat-config");
+const { run } = require("hardhat");
 
-const verify = async function (contractAddress, arguments) {
+const verify = async (contractAddress, args) => {
     console.log("Verifying contract...");
-
     try {
         await run("verify:verify", {
             address: contractAddress,
-            constructorArguments: arguments,
+            constructorArguments: args,
         });
     } catch (error) {
         if (error.message.toLowerCase().includes("already verified")) {
