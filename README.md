@@ -1,1 +1,1 @@
-# Hardhat Template
+# Hardhat NFT
