@@ -37,7 +37,7 @@ contract RandomBinariesNFT is ERC721URIStorage, Ownable, VRFConsumerBaseV2 {
     // NFT Variables
     bool s_initialized;
     string[] internal s_tokenURIs;
-    uint256 i_mintFee; // Change to immutable.
+    uint256 i_mintFee;
     uint256 public s_tokenCounter;
 
     uint256 internal constant MAX_CHANCE = 1000;
