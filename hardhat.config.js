@@ -35,11 +35,12 @@ module.exports = {
         },
     },
     gasReporter: {
-        coinmarketcap: process.env.COINMARKETCAP_API_KEY,
+        coinmarketcap: COINMARKETCAP_API_KEY,
         currency: "USD",
         enabled: REPORT_GAS,
         noColors: true,
         outputFile: "gas-report.txt",
+        token: "ETH",
     },
     mocha: {
         timeout: 200000, // 200 seconds max for running tests.
@@ -104,3 +105,4 @@ module.exports = {
         ],
     },
 };
+
