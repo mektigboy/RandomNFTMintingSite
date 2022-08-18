@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/home/user/Documents/Projects/Random NFT Minting Site/contracts/RandomBinariesNFT.sol": {
-      "lastModificationDate": 1660839027310,
-      "contentHash": "e93707acf65154356c52a9c90adc1500",
+      "lastModificationDate": 1660849438889,
+      "contentHash": "91e0b8b0e5bce151849daee1c63c40a3",
       "sourceName": "contracts/RandomBinariesNFT.sol",
       "solcConfig": {
         "version": "0.8.15",
