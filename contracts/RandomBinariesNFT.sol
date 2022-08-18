@@ -15,7 +15,7 @@ error RandomBinariesNFT__TransferFailed();
 /// @title Random Binaries NFT
 /// @author mektigboy
 /// @notice Mint NFTs from the "RandomBinariesNFT" collection.
-/// @dev Uses libraries from OpenZeppelin.
+/// @dev Uses libraries from Chainlink and OpenZeppelin.
 contract RandomBinariesNFT is ERC721URIStorage, Ownable, VRFConsumerBaseV2 {
     // Type Declaration
     enum Selection {
